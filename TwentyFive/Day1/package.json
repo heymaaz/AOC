@@ -1,0 +1,20 @@
+{
+  "name": "twentyfive",
+  "private": true,
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "format": "bun oxfmt . --write",
+    "start": "bun run part2.ts",
+    "part1": "bun run part1.ts"
+  },
+  "dependencies": {
+    "oxfmt": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
