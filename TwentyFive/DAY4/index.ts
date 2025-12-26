@@ -5,9 +5,9 @@ const part = prompt("Which part do you want to run? (1 or 2)");
 const input = prompt("Which input do you want to use? (a for example or b for input)");
 
 if (input === "a") {
-    Bun.env.INPUT_FILE = "example.txt";
+  Bun.env.INPUT_FILE = "example.txt";
 } else {
-    Bun.env.INPUT_FILE = "input.txt";
+  Bun.env.INPUT_FILE = "input.txt";
 }
 
 if (part === "1") {
